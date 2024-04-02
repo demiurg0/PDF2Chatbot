@@ -31,7 +31,7 @@ Primero, clona el repositorio e instala las dependencias necesarias:
 
 
 
-# Documentación Exhaustiva del Código
+# Documentación del Código
 
 En este documento, proporcionaremos una descripción detallada del código proporcionado para un chatbot de PDF utilizando Streamlit y Langchain. El chatbot está diseñado para procesar archivos PDF, dividirlos en fragmentos manejables, y proporcionar respuestas a las preguntas de los usuarios sobre el contenido del PDF. A continuación, se explicará cada parte del código, desde las importaciones hasta la lógica de procesamiento de texto y la interacción con el usuario.
 
