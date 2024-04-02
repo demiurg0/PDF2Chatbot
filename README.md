@@ -125,7 +125,7 @@ El código utiliza Streamlit para crear una interfaz de usuario interactiva. Per
 
 ```
 
-st.title("Chatbot de PDF")
+st.title("PDF2Chatbot")
 
 archivo_subido = st.file_uploader("Sube tu PDF", type='pdf')
 
