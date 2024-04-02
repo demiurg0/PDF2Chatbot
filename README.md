@@ -28,7 +28,7 @@ Primero, clona el repositorio e instala las dependencias necesarias:
 
   
 ## Screenshot:
-  '''![Screenshot from 2024-04-01 18-01-09](https://github.com/demiurg0/PDF2Chatbot/assets/165735354/25fc365e-672f-4d1d-8111-9b734af212d0)
+![Screenshot from 2024-04-01 18-01-09(1)](https://github.com/demiurg0/PDF2Chatbot/assets/165735354/fd5e6cf3-6aed-4c45-9fd7-d8a7470d452f)
 
 
 
