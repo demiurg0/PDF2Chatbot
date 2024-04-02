@@ -1,4 +1,4 @@
-# Streamlit-Local-Rag : Chatbot de PDF con Streamlit y Langchain
+# PDF2Chatbot (Streamlit-Local-Rag) : Chatbot de PDF con Streamlit y Langchain
 
 Este proyecto implementa un chatbot interactivo capaz de responder preguntas basadas en el contenido de un archivo PDF. Utiliza Streamlit para la interfaz de usuario, LangChain para el procesamiento de lenguaje natural, y Ollama para las embeddings y consultas vectoriales.
 
