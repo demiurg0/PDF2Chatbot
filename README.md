@@ -25,9 +25,10 @@ Primero, clona el repositorio e instala las dependencias necesarias:
 - Instalar Ollama, desplegar modelo llama2 ( o seleccionado ) -
   '''
   ollama run llama2
-  '''
-  
 
+  
+## Screenshot:
+  '''![Screenshot from 2024-04-01 18-01-09](https://github.com/demiurg0/PDF2Chatbot/assets/165735354/25fc365e-672f-4d1d-8111-9b734af212d0)
 
 
 
