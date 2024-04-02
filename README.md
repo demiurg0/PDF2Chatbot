@@ -59,7 +59,7 @@ import sys
 sys.modules['sqlite3'] = __import__('pysqlite3')
 ```
 
-Configuración de Loguru y Directorios
+## Configuración de Loguru y Directorios
 
 El siguiente bloque de código configura Loguru para la gestión de registros y comprueba si existen los directorios necesarios para almacenar archivos generados por el chatbot.
 
@@ -75,7 +75,7 @@ if not os.path.exists('jj'):
     os.mkdir('jj')
 ```
 
-Configuración del Estado de la Sesión de Streamlit
+## Configuración del Estado de la Sesión de Streamlit
 
 Este bloque de código establece el estado inicial de la sesión de Streamlit, definiendo plantillas de mensajes y configuraciones de memoria para el historial de conversación.
 
@@ -119,7 +119,7 @@ def init_session_state():
 
 init_session_state()
 ```
-Interfaz de Usuario con Streamlit
+## Interfaz de Usuario con Streamlit
 
 El código utiliza Streamlit para crear una interfaz de usuario interactiva. Permite a los usuarios cargar un archivo PDF y ver el historial de chat. También incluye un cuadro de entrada para que los usuarios realicen preguntas.
 
@@ -141,7 +141,7 @@ if archivo_subido is not None:
 else:
     st.write("Por favor, sube un archivo PDF.")
 ```
-Lógica de Procesamiento del PDF y Chat
+## Lógica de Procesamiento del PDF y Chat
 
 El código procesa el archivo PDF subido dividiéndolo en fragmentos manejables, crea y persiste una tienda de vectores para el contenido del PDF, y luego utiliza un modelo de preguntas y respuestas para interactuar con el usuario.
 
@@ -154,7 +154,7 @@ if archivo_subido is not None:
 else:
     st.write("Por favor, sube un archivo PDF.")
 ```
-Evaluación y Ajuste de Parámetros
+## Evaluación y Ajuste de Parámetros
 
 Se evalúa la longitud del texto del PDF para ajustar los parámetros de división de texto según sea necesario.
 
