@@ -15,9 +15,16 @@ Este proyecto implementa un chatbot interactivo capaz de responder preguntas bas
 - langchain
 - loguru
 - PyPDF2 o similar para la carga de PDFs
+- Ollama
 
 ## Instalación
 
 Primero, clona el repositorio e instala las dependencias necesarias:
+
+- Instalar Ollama, desplegar modelo llama2 ( o seleccionado ) -
+  '''
+  ollama run llama2
+  '''
+  
 
 
