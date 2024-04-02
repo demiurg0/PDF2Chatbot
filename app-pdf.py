@@ -65,7 +65,7 @@ def init_session_state():
 
 init_session_state()
 
-st.title("Chatbot de PDF")
+st.title("PDF2Chatbot")
 
 def evaluar_y_ajustar_parametros(longitud_del_texto):
     if longitud_del_texto > 50000:  # Si el texto es muy largo
